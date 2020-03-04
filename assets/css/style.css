@@ -20,7 +20,7 @@ input[type="text"], input[type="password"]{
 input[type="submit"] {
   padding: 10px;
   color: #fff;
-  background: #0098cb;
+  background: rgba(169, 117, 199, 0.822);
   width: 320px;
   margin: 20px auto;
   margin-top: 0;
@@ -29,7 +29,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 input[type="submit"]:hover {
-  background-color: #00b8eb;
+  background-color:rgb(113, 106, 131);
 }
 
 /* Header */
