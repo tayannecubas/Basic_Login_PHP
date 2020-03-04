@@ -29,16 +29,16 @@
     <?php require 'partials/header.php' ?>
 
     <?php if(!empty($user)): ?>
-      <br> Welcome. <?= $user['email']; ?>
-      <br>You are Successfully Logged In
+      <br> Bem vindx! <?= $user['email']; ?>
+      <br>Você está logado com sucesso.
       <a href="logout.php">
         Logout
       </a>
     <?php else: ?>
-      <h1>Please Login or SignUp</h1>
+      <h1>Cadastre-se ou Faça seu Login</h1>
 
       <a href="login.php">Login</a> or
-      <a href="signup.php">SignUp</a>
+      <a href="signup.php">Cadastre-se</a>
     <?php endif; ?>
   </body>
 </html>
